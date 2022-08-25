@@ -1,5 +1,5 @@
 library(ggplot2)
-source('./scale_dressing.R')
+source('./R/scale_dressing.R')
 
 # scale_color_dressing
 ggplot(data = iris, 
@@ -19,4 +19,4 @@ ggplot(data = faithfuld,
                     fill = density)) + 
   geom_tile() +
   theme_minimal() + 
-  scale_fill_dressing(discrete = FALSE, reverse = TRUE)
+  scale_fill_dressing(discrete = FALSE)
