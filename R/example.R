@@ -10,7 +10,7 @@ ggplot(data = iris,
   geom_point(size = 3, alpha = 0.75) + 
   theme_minimal() + 
   scale_color_dressing(reverse = TRUE, discrete = TRUE)
-  
+
 # scale_fill_dressing
 ggplot(data = faithfuld, 
        mapping =aes(x = eruptions,
